@@ -1,0 +1,62 @@
+/* DEFAULT BUTTON STYLE */
+@layer components {
+  .primary {
+    @apply p-2 text-sm font-medium rounded-lg;
+  }
+  .secondary {
+    @apply p-2 text-sm font-medium rounded-lg;
+  }
+  .outlined {
+    @apply border p-2 text-sm font-medium rounded-lg;
+  }
+}
+
+/* BLUE THEME */
+@layer components {
+  /* STATE : DEFAULT */
+  .blue-hedgehog {
+    @apply bg-blue-hedgehog text-neutral-light;
+  }
+  .blue-hedgehog-outlined {
+    @apply text-blue-hedgehog border-blue-hedgehog bg-neutral-light;
+  }
+  .blue-hedgehog-secondary {
+    @apply text-blue-hedgehog bg-blue-magnolia;
+  }
+
+  /* STATE : LOADING */
+  .blue-hedgehog-loading {
+    @apply bg-blue-cornflower text-neutral-light;
+  }
+  .blue-hedgehog-outlined-loading {
+    @apply text-blue-cornflower border-blue-cornflower bg-neutral-light;
+  }
+  .blue-hedgehog-secondary-loading {
+    @apply text-blue-cornflower bg-blue-magnolia;
+  }
+}
+
+/* RED THEME */
+@layer components {
+  /* STATE : DEFAULT */
+  .red-dragon {
+    @apply bg-red-dragon text-neutral-light;
+  }
+  .red-dragon-outlined {
+    @apply text-red-dragon border-red-dragon bg-neutral-light;
+  }
+  .red-dragon-secondary {
+    @apply text-red-dragon bg-red-blush;
+  }
+
+  /* STATE : LOADING */
+  .red-dragon-loading {
+    @apply bg-red-coral text-neutral-light;
+  }
+  .red-dragon-outlined-loading {
+    @apply text-red-coral border-red-coral bg-neutral-light;
+  }
+  .red-dragon-secondary-loading {
+    @apply text-red-coral bg-red-blush;
+  }
+}

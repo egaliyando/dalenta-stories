@@ -1,0 +1,32 @@
+@layer components {
+  .primary-text-field {
+    @apply bg-blue-magnolia rounded-lg text-sm w-60;
+  }
+  .secondary-text-field {
+    @apply bg-gray-culture rounded-lg text-sm w-60;
+  }
+}
+
+@layer components {
+  .default-text-field {
+    @apply border-0;
+  }
+  .required-text-field {
+    @apply border border-red-dragon;
+  }
+  .success-text-field {
+    @apply border border-green-mantis;
+  }
+  .warning-text-field {
+    @apply border border-orange-pumpkin;
+  }
+}
+
+.small-text-field {
+  height: 36px;
+  width: 244px;
+}
+.large-text-field {
+  height: 52px;
+  width: 540px;
+}

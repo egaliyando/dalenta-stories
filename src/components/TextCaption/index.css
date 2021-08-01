@@ -1,0 +1,14 @@
+@layer components {
+  .default-capt {
+    @apply text-gray-spain;
+  }
+  .required-capt {
+    @apply text-red-dragon;
+  }
+  .success-capt {
+    @apply text-green-mantis;
+  }
+  .warning-capt {
+    @apply text-orange-pumpkin;
+  }
+}

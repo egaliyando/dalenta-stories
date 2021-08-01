@@ -1,0 +1,14 @@
+@layer components {
+  .default {
+    @apply border-0;
+  }
+  .required {
+    @apply border border-red-dragon;
+  }
+  .success {
+    @apply border border-green-mantis;
+  }
+  .warning {
+    @apply border border-orange-pumpkin;
+  }
+}
