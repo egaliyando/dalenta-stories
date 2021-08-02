@@ -1,6 +1,6 @@
 {
   "name": "dalenta-stories",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Dalenta component built with react",
   "main": "./src/components/index.js",
   "repository": {
@@ -28,7 +28,7 @@
   },
   "scripts": {
     "start": "npm run watch:css && start-storybook -p 6006 -s public",
-    "build": "npm run build:css && build-storybook -s public",
+    "build": "npm run build:css && build-storybook -c .storybook -o public",
     "eject": "react-scripts eject",
     "build:css": "postcss src/assets/tailwind.css -o src/assets/main.css",
     "watch:css": "postcss src/assets/tailwind.css -o src/assets/main.css"
