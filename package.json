@@ -1,11 +1,11 @@
 {
   "name": "dalenta-stories",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Dalenta component built with react",
   "main": "./src/components/index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/weianofsteel/react-scroll-up-button"
+    "url": "https://github.com/egaliyando/dalenta-stories.git"
   },
   "keywords": [
     "react",
@@ -14,7 +14,7 @@
   "license": "MIT",
   "author": "Ega Liyando",
   "bugs": {
-    "url": "https://github.com/weianofsteel/react-scroll-up-button"
+    "url": "https://github.com/egaliyando/dalenta-stories.git"
   },
   "dependencies": {
     "@iconscout/react-unicons": "^1.1.6",
